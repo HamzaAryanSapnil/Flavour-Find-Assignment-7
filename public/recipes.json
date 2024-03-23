@@ -1,0 +1,171 @@
+[
+  {
+    "recipe_image": "https://i.postimg.cc/4Nwpfvfq/burger.jpg",
+    "recipe_id": "001",
+    "recipe_name": "Big sandwich",
+    "author": "@timolina",
+    "main_resource": "https://www.freepik.com/free-photo/big-sandwich-hamburger-burger-with-beef-red-onion-tomato-fried-bacon_6654487.htm#&position=1&from_view=author&uuid=33386ce6-a4af-4cc7-a776-2c27e01e9f74",
+    "short_description": "Hamburger burger with beef, red onion, tomato and fried bacon.",
+    "ingredients": [
+      "550 g chicken",
+      "120 ml lemon juice",
+      "50 g fresh parsley",
+      "30 g fresh thyme",
+      "3 cloves garlic",
+      "Salt and pepper to taste"
+    ],
+    "preparing_time": 40,
+    "calories": 280
+  },
+  {
+    "recipe_image": "https://i.postimg.cc/0NGw47BV/murgivuna.jpg",
+    "recipe_id": "002",
+    "recipe_name": "Chicken with mustard and red peppers",
+    "author": "by @fahrwasser",
+    "main_resource": "https://www.freepik.com/free-photo/chicken-with-mustard-red-peppers_28006937.htm#&position=1&from_view=author&uuid=cbb55d7c-151e-4ba1-911a-d7d9a2cc14c1",
+    "short_description": "A colorful and flavorful stir-fry packed with fresh vegetables and chicken.",
+    "ingredients": [
+      "200 g broccoli florets",
+      "150 g bell peppers",
+      "100 g carrots",
+      "120 g snap peas",
+      "80 g mushrooms",
+      "60 ml soy sauce"
+    ],
+    "preparing_time": 25,
+    "calories": 220
+  },
+  {
+    "recipe_image": "https://i.postimg.cc/269HMpqj/noddles.jpg",
+    "recipe_id": "003",
+    "recipe_name": "Nooddles",
+    "short_description": "Simple yet delicious noddles topped with fresh tomatoes, mozzarella, and basil.",
+    "ingredients": [
+      "300 g pizza dough",
+      "200 g mozzarella cheese",
+      "150 g fresh tomatoes",
+      "30 g fresh basil leaves",
+      "2 cloves garlic",
+      "30 ml olive oil"
+    ],
+    "preparing_time": 35,
+    "calories": 320
+  },
+  {
+    "recipe_image": "https://i.postimg.cc/Wb87HLxB/pasta.jpg",
+    "recipe_id": "004",
+    "recipe_name": "Penne pasta ",
+    "author": "@timolina",
+    "short_description": "A creamy pasta dish made with eggs, cheese, pancetta, and black pepper, in tomato sauce with chicken and tomatoes on a wooden table.",
+    "ingredients": [
+      "400 g spaghetti",
+      "150 g pancetta",
+      "100 g grated Parmesan cheese",
+      "3 large eggs",
+      "2 cloves garlic",
+      "Salt and black pepper to taste"
+    ],
+    "preparing_time": 30,
+    "calories": 420
+  },
+  {
+    "recipe_image": "https://i.postimg.cc/cCRNS4fM/salad.jpg",
+    "recipe_id": "005",
+    "recipe_name": "Fresh Fruit Salad",
+    "short_description": "A refreshing and colorful fruit salad perfect for any occasion.",
+    "ingredients": [
+      "1 apple",
+      "1 banana",
+      "1 orange",
+      "100 g strawberries",
+      "100 g grapes",
+      "Juice of 1 lemon"
+    ],
+    "preparing_time": 15,
+    "calories": 120
+  },
+  {
+    "recipe_image": "https://i.postimg.cc/3wFpdg7P/sandwich.jpg",
+    "recipe_id": "006",
+    "recipe_name": "Club sandwich",
+    "author": "@timolina",
+    "main_resource": "https://www.freepik.com/free-photo/club-sandwich-panini-with-ham-cheese-tomato-herbs_7688769.htm#fromView=search&page=1&position=29&uuid=a89f3567-229b-4f95-8436-8f6da7c4de4e",
+    "short_description": "Panini with ham, cheese, tomato and herbs.",
+    "ingredients": [
+      "500 g chicken breast",
+      "200 ml coconut milk",
+      "100 g green curry paste",
+      "150 g bamboo shoots",
+      "100 g bell peppers",
+      "50 g Thai basil leaves"
+    ],
+    "preparing_time": 45,
+    "calories": 350
+  },
+  {
+    "recipe_image": "https://i.postimg.cc/yNNBZZZD/shamuk.jpg",
+    "recipe_id": "007",
+    "recipe_name": "Mushroom Risotto, Jhinai Nodir Shamuk",
+    "short_description": "Creamy and flavorful risotto with earthy mushrooms and Parmesan cheese with Jhinai nodir Shamuk.",
+    "author": "@jhinai_nodir par",
+    "ingredients": [
+      "300 g Arborio rice",
+      "200 g mushrooms",
+      "1 onion",
+      "2 cloves garlic",
+      "1 liter vegetable broth"
+    ],
+    "preparing_time": 40,
+    "calories": 380
+  },
+  {
+    "recipe_image": "https://i.postimg.cc/XqxXWbMh/vat.jpg",
+    "recipe_id": "008",
+    "recipe_name": "Salad with rice apple cranberry and peas",
+    "short_description": "Salad with rice apple cranberry and peas",
+    "author": "by @fahrwasser",
+    "main_resource": "https://www.freepik.com/free-photo/salad-with-rice-apple-cranberry-peas_28007681.htm#fromView=search&page=1&position=40&uuid=a89f3567-229b-4f95-8436-8f6da7c4de4e",
+    "ingredients": [
+      "3 ripe bananas",
+      "200 g all-purpose flour",
+      "100 g sugar",
+      "100 g butter",
+      "2 eggs",
+      "1 tsp baking powder"
+    ],
+    "preparing_time": 60,
+    "calories": 240
+  },
+  {
+    "recipe_image": "https://i.postimg.cc/pLSCxNRp/veg-cury.jpg",
+    "recipe_id": "009",
+    "recipe_name": "Vegan curry with tofu and vegetables",
+    "author": "@fahrwasser",
+    "short_description": "A simple and elegant Italian salad with fresh tomatoes, mozzarella, and basil.",
+    "ingredients": [
+      "200 g cherry tomatoes",
+      "200 g fresh mozzarella cheese",
+      "30 g fresh basil leaves",
+      "30 ml balsamic glaze",
+      "Salt and pepper to taste"
+    ],
+    "preparing_time": 10,
+    "calories": 180
+  },
+  {
+    "recipe_image": "https://i.postimg.cc/wxRjkMq1/food-items.jpg",
+    "recipe_id": "010",
+    "recipe_name": "Many Kinds Of Food Items",
+    "short_description": "Tasty tacos filled with seasoned beef, lettuce, cheese, and salsa.",
+    "ingredients": [
+      "500 g ground beef",
+      "150 g shredded lettuce",
+      "100 g shredded cheddar cheese",
+      "8 taco shells",
+      "100 g salsa",
+      "50 g sour cream"
+    ],
+    "preparing_time": 20,
+    "calories": 3000
+  }
+]
