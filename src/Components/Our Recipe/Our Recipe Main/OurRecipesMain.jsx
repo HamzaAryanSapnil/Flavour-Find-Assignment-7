@@ -83,9 +83,8 @@ const OurRecipesMain = () => {
 
   return (
     <div className="container p-4 mx-auto" >
-      <h2>Our Recipes: {recipesData.length}</h2>
-      <div className="md:flex">
-        <div className="grid md:grid-cols-2 w-3/4 ">
+      <div className="md:flex gap-x-10 justify-between">
+        <div className="grid md:grid-cols-1 lg:grid-cols-2 md:w-1/2 lg:w-3/4 ">
           {recipesData.map((recipe, idx) => (
             <OurRecipeMainData
               key={idx}
@@ -94,7 +93,7 @@ const OurRecipesMain = () => {
             ></OurRecipeMainData>
           ))}
         </div>
-        <div className="w-1/4">
+        <div className=" w-1/2 lg:w-1/4">
           <WantsToCookTable
             wantToCookTable={wantToCookTable}
             currentlyCookingTable={currentlyCookingTable}
