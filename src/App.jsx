@@ -8,7 +8,7 @@ import HeaderMain from "./Components/Header Section/HeaderMain";
 function App() {
   return (
     <>
-      {/* FlavorFind */}
+     
       <HeaderMain></HeaderMain>
       <OurRecipeSection></OurRecipeSection>
 
