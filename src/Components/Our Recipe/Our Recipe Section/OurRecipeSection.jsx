@@ -1,9 +1,9 @@
 
-import PropTypes from 'prop-types';
+
 import OurRecipeHeader from '../Our Recipe Header/OurRecipeHeader';
 import OurRecipesMain from '../Our Recipe Main/OurRecipesMain';
 
-const OurRecipeSection = props => {
+const OurRecipeSection = () => {
     return (
         <div>
             <OurRecipeHeader></OurRecipeHeader>
@@ -12,8 +12,5 @@ const OurRecipeSection = props => {
     );
 };
 
-OurRecipeSection.propTypes = {
-    
-};
 
 export default OurRecipeSection;
