@@ -1,4 +1,4 @@
-import { IoIosContact } from "react-icons/io";
+
 
 const NavBar = () => {
   return (
@@ -61,22 +61,22 @@ const NavBar = () => {
         </div>
         <div className="navbar-end">
           <div className="md:flex gap-x-2" >
-            <label class="hidden md:flex input input-bordered rounded-full items-center gap-2">
-              <input type="text" class="grow" placeholder="Search" />
+            <label className="hidden md:flex input input-bordered rounded-full items-center gap-2">
+              <input type="text" className="grow" placeholder="Search" />
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 16 16"
                 fill="currentColor"
-                class="w-4 h-4 opacity-70"
+                className="w-4 h-4 opacity-70"
               >
                 <path
-                  fill-rule="evenodd"
+                  fillRule="evenodd"
                   d="M9.965 11.026a5 5 0 1 1 1.06-1.06l2.755 2.754a.75.75 0 1 1-1.06 1.06l-2.755-2.754ZM10.5 7a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Z"
-                  clip-rule="evenodd"
+                  clipRule="evenodd"
                 />
               </svg>
             </label>
-            <a className="btn bg-nav-icon-bg rounded-full text-4xl "><img src="/src/assets/images/Vector.png" width={15} alt="" srcset="" /></a>
+            <a className="btn bg-nav-icon-bg rounded-full text-4xl "><img src="/src/assets/images/Vector.png" width={15} alt="" srcSet="" /></a>
           </div>
         </div>
       </div>

@@ -3,52 +3,43 @@ import PropTypes from "prop-types";
 const WantsToCookData = ({
   wantToCookTable,
   handleRemoveFromWantsToCookTable,
-  handleAddInCurrentlyCookingTable,
 }) => {
   return (
     <div>
       {wantToCookTable.map((wantToCookTableData, index) => (
         <table
           key={wantToCookTableData.recipe_name}
-          className="border-2 border-yellow-400"
+          className=" font-fira text-recipe-des mt-4 p-4 rounded-xl"
         >
-          <thead>
-            <tr className="border-2 border-red-400">
-              <th colSpan={2} className="border-2 border-black">
-                Name
-              </th>
-              <th className="border-2 border-black">Time</th>
-              <th colSpan={2} className="border-2 border-black">
-                Calories
-              </th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr className="border-2 border-red-400">
-              <td className="border-2 border-black">{index + 1}</td>
-              <td className="border-2 border-black">
+          
+          <tbody className="bg-recipe-header-three rounded-full">
+            <tr className="rounded-full 
+            ">
+              <td className=" font-semibold text-lg text-recipe-header-eighty w-9 text-center">
+                {index + 1}
+              </td>
+              <td className="text-recipe-header-seventy w-24 px-1">
                 {wantToCookTableData.recipe_name}
               </td>
-              <td className="border-2 border-black">
-                {wantToCookTableData.preparing_time}
+              <td className=" text-recipe-header-seventy w-20 px-1">
+                {wantToCookTableData.preparing_time} Minutes
               </td>
-              <td className="border-2 border-black">
-                {wantToCookTableData.calories}
+              <td className=" text-recipe-header-seventy w-20">
+                {wantToCookTableData.calories} Calories
               </td>
-              <button
-                onClick={() =>
-                  handleRemoveFromWantsToCookTable(
-                    wantToCookTableData.recipe_id,
-                    wantToCookTableData
-                  )
-                  
-                }
-                
-                
-                className="btn  btn-accent"
-              >
-                Preparing
-              </button>
+              <td className="px-2" >
+                <button
+                  onClick={() =>
+                    handleRemoveFromWantsToCookTable(
+                      wantToCookTableData.recipe_id,
+                      wantToCookTableData
+                    )
+                  }
+                  className="btn bg-nav-icon-bg font-lexend text-navBlack font-medium rounded-full border-none"
+                >
+                  Preparing
+                </button>
+              </td>
             </tr>
           </tbody>
         </table>
@@ -59,6 +50,7 @@ const WantsToCookData = ({
 
 WantsToCookData.propTypes = {
   wantToCookTable: PropTypes.array,
+  handleRemoveFromWantsToCookTable: PropTypes.func,
 };
 
 export default WantsToCookData;

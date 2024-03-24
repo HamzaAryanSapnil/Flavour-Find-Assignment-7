@@ -1,51 +1,50 @@
+import PropTypes from "prop-types";
 
-import PropTypes from 'prop-types';
-
-const CurrentlyCookingTable = ({currentlyCookingTable, totalPreparingTime, totalCalories}) => {
-    return (
-        <div>
-            {currentlyCookingTable.map((recipe, idx) => (
-                <table key={idx} className='border-2 border-yellow-400' >
-                    <thead>
-                <tr className='border-2 border-red-400' >
-                    <th colSpan={2} className='border-2 border-black' >Name</th>
-                    <th className='border-2 border-black' >Time</th>
-                    <th  className='border-2 border-black' >Calories</th>
-                    
-                </tr>
-                </thead>
-                <tbody>
-                <tr className='border-2 border-red-400'>
-                    <td className='border-2 border-black' > {idx + 1} </td>
-                    <td className='border-2 border-black' > {recipe.recipe_name} </td>
-                    <td className='border-2 border-black' > {recipe.preparing_time} min </td>
-                    <td className='border-2 border-black' > {recipe.calories} cal </td>
-                    
-                </tr>
-                </tbody>
-                <tfoot>
-                    <tr>
-                        <td></td>
-                        <td></td>
-                        <td colSpan={2} className='border-2 border-black' >Total Time {totalPreparingTime} Minutes </td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td></td>
-                        <td colSpan={2} className='border-2 border-black' >Total Calories {totalCalories} Calories </td>
-                    </tr>
-                </tfoot>
-
-            </table>
-            
-            ))}
-            
-        </div>
-    );
+const CurrentlyCookingTable = ({
+  currentlyCookingTable,
+}) => {
+  return (
+    <div>
+      {currentlyCookingTable.map((recipe, idx) => (
+        <table
+          key={idx}
+          className=' className=" font-fira text-recipe-des mt-4 p-4 rounded-xl" '
+        >
+          
+          <tbody className="bg-recipe-header-three rounded-full">
+            <tr className="">
+              <td colSpan={2} className="font-semibold text-lg text-recipe-header-eighty w-9 text-center">
+               
+                {idx + 1}
+              </td>
+              <td colSpan={2} className="text-recipe-header-seventy w-24 px-1">
+                
+                {recipe.recipe_name}
+              </td>
+              <td colSpan={2} className="text-recipe-header-seventy w-20 px-1">
+               
+                {recipe.preparing_time} min
+              </td>
+              <td colSpan={2} className="text-recipe-header-seventy w-20">
+                
+                {recipe.calories} cal
+              </td>
+              
+            </tr>
+          </tbody>
+          
+        </table>
+        
+      ))}
+      
+    </div>
+  );
 };
 
 CurrentlyCookingTable.propTypes = {
-    
+  currentlyCookingTable: PropTypes.array,
+  totalPreparingTime: PropTypes.number,
+  totalCalories: PropTypes.number,
 };
 
 export default CurrentlyCookingTable;

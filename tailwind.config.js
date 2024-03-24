@@ -18,6 +18,8 @@ export default {
         "nav-icon-bg": "#0BE58A",
         "recipe-header": "#282828",
         "recipe-header-eighty": "#282828CC",
+        "recipe-header-seventy": "#282828B3",
+        "recipe-header-three": "#28282808",
         "recipe-des": "#878787",
       },
     },

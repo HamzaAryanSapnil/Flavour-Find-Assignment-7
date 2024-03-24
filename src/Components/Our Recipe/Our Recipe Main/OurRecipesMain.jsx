@@ -83,8 +83,9 @@ const OurRecipesMain = () => {
 
   return (
     <div className="container p-4 mx-auto" >
-      <div className="md:flex gap-x-10 justify-between">
-        <div className="grid md:grid-cols-1 lg:grid-cols-2 md:w-1/2 lg:w-3/4 ">
+      <div className="md:flex gap-x-6 justify-between">
+
+        <div className="grid md:grid-cols-1 lg:grid-cols-2 gap-x-10  ">
           {recipesData.map((recipe, idx) => (
             <OurRecipeMainData
               key={idx}
@@ -93,7 +94,8 @@ const OurRecipesMain = () => {
             ></OurRecipeMainData>
           ))}
         </div>
-        <div className=" w-1/2 lg:w-1/4">
+
+        <div className="">
           <WantsToCookTable
             wantToCookTable={wantToCookTable}
             currentlyCookingTable={currentlyCookingTable}
@@ -103,6 +105,7 @@ const OurRecipesMain = () => {
             totalCalories={totalCalories}
           ></WantsToCookTable>
         </div>
+        
       </div>
     </div>
   );
