@@ -27,7 +27,7 @@ const WantsToCookData = ({
               <td className=" text-recipe-header-seventy w-20">
                 {wantToCookTableData.calories} Calories
               </td>
-              <td className="px-2" >
+              <td className="md:px-2 " >
                 <button
                   onClick={() =>
                     handleRemoveFromWantsToCookTable(
@@ -35,9 +35,20 @@ const WantsToCookData = ({
                       wantToCookTableData
                     )
                   }
-                  className="btn bg-nav-icon-bg font-lexend text-navBlack font-medium rounded-full border-none"
+                  className="btn bg-nav-icon-bg font-lexend text-navBlack font-medium rounded-full border-none md:block hidden"
                 >
                   Preparing
+                </button>
+                <button
+                  onClick={() =>
+                    handleRemoveFromWantsToCookTable(
+                      wantToCookTableData.recipe_id,
+                      wantToCookTableData
+                    )
+                  }
+                  className="btn bg-nav-icon-bg font-lexend text-navBlack font-medium rounded-full border-none block md:hidden"
+                >
+                  P
                 </button>
               </td>
             </tr>

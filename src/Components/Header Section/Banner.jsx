@@ -14,9 +14,13 @@ const Banner = () => {
               Discover an exceptional cooking class tailored for you!
             </h1>
             <p className="mb-5">
-              Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-              excepturi exercitationem quasi. In deleniti eaque aut repudiandae
-              et a id nisi.
+            Welcome to FlavorFind: Your Culinary Journey Starts Here!
+Explore handcrafted cooking experiences designed just for you.
+Indulge in the joy of creating exquisite dishes from scratch, guided by expert chefs.
+Savor the satisfaction of mastering new recipes that tantalize the taste buds and nourish the soul.
+Join us on a flavorful adventure where every dish tells a story and every meal is a masterpiece.
+Begin your culinary exploration today with FlavorFind!
+
             </p>
             <button className="btn bg-nav-icon-bg mx-4 rounded-full text-lg md:text-xl font-bold text-navBlack border-none ">
               Explore Now
