@@ -13,11 +13,11 @@ const WantsToCookTable = ({
   return (
     <div className="card bg-base-100 shadow-xl font-fira p-4">
       <div>
-        <div className="px-8">
+        <div className="xl:px-8">
           <h3 className=" border-b-2 text-center font-lexend text-recipe-header font-semibold text-2xl p-4">
             Want To Cook: {wantToCookTable.length}
           </h3>
-          <div className="flex justify-center items-center gap-x-12 mt-4 font-fira font-medium text-recipe-des pr-28">
+          <div className="flex justify-center items-center gap-x-12 mt-4 font-fira font-medium text-recipe-des xl:pr-28">
             <p>Name</p>
             <p>Time</p>
             <p>Calories</p>
@@ -31,25 +31,26 @@ const WantsToCookTable = ({
       </div>
 
       <div className="">
-        <div className="px-8" >
-          <h3 className="border-b-2 text-center font-lexend text-recipe-header font-semibold text-2xl p-4">
+        <div className="xl:px-8">
+          <h3 className="border-b-2 text-center font-lexend text-recipe-header font-semibold text-2xl lg:p-4">
             Currently Cooking: {currentlyCookingTable.length}
           </h3>
           <div className="flex justify-center items-center gap-x-12 mt-4 font-fira font-medium text-recipe-des ">
             <p>Name</p>
-            <div className="flex justify-center items-center gap-x-8 pl-28" >
-
-            <p>Time</p>
-            <p>Calories</p>
+            <div className="flex justify-center items-center gap-x-8 xl:pl-28">
+              <p>Time</p>
+              <p>Calories</p>
             </div>
           </div>
         </div>
-        <CurrentlyCookingTable
-          currentlyCookingTable={currentlyCookingTable}
-          totalPreparingTime={totalPreparingTime}
-          totalCalories={totalCalories}
-        ></CurrentlyCookingTable>
-        <div className="font-lexend font-medium text-recipe-header-eighty" >
+        <div className="w-full">
+          <CurrentlyCookingTable
+            currentlyCookingTable={currentlyCookingTable}
+            totalPreparingTime={totalPreparingTime}
+            totalCalories={totalCalories}
+          ></CurrentlyCookingTable>
+        </div>
+        <div className="font-lexend font-medium text-recipe-header-eighty text-end mt-4">
           <h4>Total Time: {totalPreparingTime} min</h4>
           <h4>Total Calories: {totalCalories} cal</h4>
         </div>

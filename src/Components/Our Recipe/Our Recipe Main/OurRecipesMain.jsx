@@ -85,7 +85,7 @@ const OurRecipesMain = () => {
     <div className="container p-4 mx-auto" >
       <div className="md:flex gap-x-6 justify-between">
 
-        <div className="grid md:grid-cols-1 lg:grid-cols-2 gap-x-10  ">
+        <div className=" flex-1 grid md:grid-cols-1 xl:grid-cols-2 xl:gap-x-10  md:w-1/2 xl:w-2/4 ">
           {recipesData.map((recipe, idx) => (
             <OurRecipeMainData
               key={idx}
@@ -95,7 +95,7 @@ const OurRecipesMain = () => {
           ))}
         </div>
 
-        <div className="">
+        <div className=" md:w-1/2 xl:w-auto">
           <WantsToCookTable
             wantToCookTable={wantToCookTable}
             currentlyCookingTable={currentlyCookingTable}

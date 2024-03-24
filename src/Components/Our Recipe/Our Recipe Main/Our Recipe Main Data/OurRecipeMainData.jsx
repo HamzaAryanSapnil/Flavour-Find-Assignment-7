@@ -5,8 +5,8 @@ import PropTypes from 'prop-types';
 const OurRecipeMainData = ({recipe, handleAddToWantsToCookTable,}) => {
     const {recipe_name, recipe_image, short_description, ingredients, preparing_time, calories} = recipe;
     return (
-        <div className='font-fira space-y-2 md:w-[380px]  my-5 card  bg-base-100 shadow-xl p-6 flex flex-col justify-center items-start ' >
-            <img className='md:h-60 md:w-80 rounded-xl' src={recipe_image} alt="" />
+        <div className='font-fira space-y-2 md:w-[320px] lg:w-[450px] xl:w-[500px] my-5 card  bg-base-100 shadow-xl p-6 flex flex-col justify-center items-start ' >
+            <img className='md:h-60 md:w-80 lg:h-80 lg:w-96 rounded-xl' src={recipe_image} alt="" />
             <h3 className='text-recipe-header font-lexend font-semibold '>{recipe_name}</h3>
             <p className='text-recipe-des' >{short_description}</p>
             <div className="py-4" >

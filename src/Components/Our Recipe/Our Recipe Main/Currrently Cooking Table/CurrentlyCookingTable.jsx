@@ -4,28 +4,28 @@ const CurrentlyCookingTable = ({
   currentlyCookingTable,
 }) => {
   return (
-    <div>
+    <div className="w-full" >
       {currentlyCookingTable.map((recipe, idx) => (
         <table
           key={idx}
-          className=' className=" font-fira text-recipe-des mt-4 p-4 rounded-xl" '
+          className=' font-fira text-recipe-des mt-4 p-4 rounded-xl w-full '
         >
           
           <tbody className="bg-recipe-header-three rounded-full">
             <tr className="">
-              <td colSpan={2} className="font-semibold text-lg text-recipe-header-eighty w-9 text-center">
+              <td  className="font-semibold text-lg text-recipe-header-eighty w-9 text-center">
                
                 {idx + 1}
               </td>
-              <td colSpan={2} className="text-recipe-header-seventy w-24 px-1">
+              <td colSpan={2} className="text-recipe-header-seventy xl:w-24 px-1">
                 
                 {recipe.recipe_name}
               </td>
-              <td colSpan={2} className="text-recipe-header-seventy w-20 px-1">
+              <td  className="text-recipe-header-seventy w-20 px-1">
                
                 {recipe.preparing_time} min
               </td>
-              <td colSpan={2} className="text-recipe-header-seventy w-20">
+              <td  className="text-recipe-header-seventy w-20">
                 
                 {recipe.calories} cal
               </td>

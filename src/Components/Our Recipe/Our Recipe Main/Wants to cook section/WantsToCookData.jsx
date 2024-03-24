@@ -18,7 +18,7 @@ const WantsToCookData = ({
               <td className=" font-semibold text-lg text-recipe-header-eighty w-9 text-center">
                 {index + 1}
               </td>
-              <td className="text-recipe-header-seventy w-24 px-1">
+              <td className="text-recipe-header-seventy xl:w-24 px-1">
                 {wantToCookTableData.recipe_name}
               </td>
               <td className=" text-recipe-header-seventy w-20 px-1">
